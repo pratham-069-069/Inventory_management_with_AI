@@ -59,7 +59,7 @@ app.post('/chatbot', async (req, res) => {
         messages: [{ "role": "user", "content": message }],
         temperature: 0.6,
         top_p: 0.7,
-        max_tokens: 4096
+        max_tokens: 1025
       })
     });
 
